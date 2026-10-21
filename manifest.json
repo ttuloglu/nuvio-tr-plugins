@@ -1,0 +1,123 @@
+{
+  "name": "Nuvio TR Pro",
+  "version": "1.0.0",
+  "author": "ttuloglu",
+  "description": "Türkiye'nin en popüler 5 dizi ve film kaynağı doğrudan HLS akışları: Film Makinesi, HDFilmCehennemi, DiziBox, DiziYou, SineVix.",
+  "scrapers": [
+    {
+      "id": "filmmakinesi",
+      "name": "Film Makinesi",
+      "description": "FilmMakinesi.to - Popüler yerli ve yabancı film ve dizi arşivi, 1080p doğrudan HLS akışları ve Türkçe altyazı/dublaj.",
+      "version": "1.0.0",
+      "author": "ttuloglu",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series"
+      ],
+      "filename": "providers/filmmakinesi.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "m3u8",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "tr",
+        "en"
+      ],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "hdfilmcehennemi",
+      "name": "HDFilmCehennemi",
+      "description": "HDFilmCehennemi.land - 1080p Full HD Çift Ses (Türkçe Dublaj & Orijinal) doğrudan HLS akışları.",
+      "version": "1.0.0",
+      "author": "ttuloglu",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series"
+      ],
+      "filename": "providers/hdfilmcehennemi.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr",
+        "en"
+      ],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "dizibox",
+      "name": "DiziBox",
+      "description": "DiziBox.live - Popüler yabancı dizi arşivi, Molystream ve VidMoly 1080p doğrudan HLS akışları.",
+      "version": "1.0.0",
+      "author": "ttuloglu",
+      "supportedTypes": [
+        "tv",
+        "series"
+      ],
+      "filename": "providers/dizibox.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr",
+        "en"
+      ],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "diziyou",
+      "name": "DiziYou",
+      "description": "DiziYou.one - Yabancı dizi arşivi, doğrudan 1080p play.m3u8 HLS akışları ve Türkçe VTT altyazıları.",
+      "version": "1.0.0",
+      "author": "ttuloglu",
+      "supportedTypes": [
+        "tv",
+        "series"
+      ],
+      "filename": "providers/diziyou.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "m3u8"
+      ],
+      "contentLanguage": [
+        "tr",
+        "en"
+      ],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "sinewix",
+      "name": "SineVix",
+      "description": "SineVix / SineWix - HD Film & Dizi arşivi doğrudan 1080p HLS akışları.",
+      "version": "1.0.0",
+      "author": "ttuloglu",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "series"
+      ],
+      "filename": "providers/sinewix.js",
+      "enabled": true,
+      "formats": [
+        "hls",
+        "m3u8",
+        "mp4"
+      ],
+      "contentLanguage": [
+        "tr",
+        "en"
+      ],
+      "supportsExternalPlayer": true
+    }
+  ]
+}
